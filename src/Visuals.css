@@ -1,0 +1,28 @@
+.row_container {
+  padding-top: 70px;
+  width: 85%;
+  margin: auto;
+}
+
+.row_class {
+  margin-bottom: 20px;
+}
+
+.video_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.video_caption {
+  height: 30px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.video_caption p {
+  font-size: 14px;
+}

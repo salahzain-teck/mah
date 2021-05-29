@@ -1,0 +1,81 @@
+.footer {
+  height: 350px;
+  margin: auto;
+  display: flex;
+  width: 90%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 43, 44);
+}
+
+.accounts {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 350px;
+  color: rgb(233, 237, 238);
+  margin-top: -20px;
+}
+
+.accounts span {
+  text-align: center;
+  display: flex;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+span {
+  color: rgb(51, 55, 56);
+}
+
+.icon {
+  margin-top: 17px;
+  height: 20px;
+}
+
+a :hover {
+  color: #0fa0ce;
+}
+
+.terms_div {
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -50px;
+}
+
+.terms_div p {
+  color: #0fa0ce;
+
+  font-size: 14px;
+}
+
+.terms_div span > p {
+  color: rgb(136, 129, 129);
+}
+
+.nav_icon {
+  margin-left: 3px;
+  margin-bottom: 2px;
+  color: white;
+  font-weight: 500;
+}
+
+.nav_span :hover {
+  color: rgb(51, 55, 56);
+}
+
+.nav_span {
+  margin: auto;
+  background-color: #0fa0ce;
+  width: 30px;
+  border-radius: 2px;
+  margin-top: -16px;
+}

@@ -1,0 +1,151 @@
+.highlights {
+  /* background-image: url('https://weddinginvitations.nz/wp-content/uploads/2019/03/background-batik-putih-2.png'); */
+  background-repeat: repeat;
+  position: relative;
+  margin-top: 200px;
+}
+
+@media (max-width: 576px) {
+  .highlights {
+    margin-top: 112px;
+  }
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 395px;
+  width: 100%;
+  background-color: rgb(41, 43, 44);
+  color: honeydew;
+  margin: 0 3px;
+  font-size: 4em;
+}
+
+@media (max-width: 576px) {
+  .content_section {
+    min-height: 500px;
+    min-width: 460px;
+  }
+}
+
+.content_section {
+  height: 400px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(41, 43, 44);
+}
+
+@media (max-width: 576px) {
+  .content_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_section {
+    max-height: 140px;
+    min-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .header_section h3 {
+    font-size: 25px;
+
+    margin-top: 40px;
+  }
+  .header_section p {
+    font-size: 15px;
+  }
+
+  .carousel_section {
+    width: 100%;
+    margin: auto;
+  }
+  .item {
+    max-height: 320px;
+    margin-top: 10px;
+  }
+  .img_div img {
+    max-height: 165px;
+  }
+  .caption_div span >p{
+    font-size: 13px;
+  }
+  .caption_div p{
+    font-size: 14px;
+  }
+}
+
+.header_section {
+  color: honeydew;
+  width: 20%;
+  height: 400px;
+  text-align: center;
+}
+
+.header_section h3 {
+  margin-top: 40px;
+}
+
+.header_section p {
+  display: block;
+}
+
+.carousel_section {
+  width: 80%;
+  height: 400px;
+}
+
+.img_div {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(41, 43, 44);
+}
+
+.img_div img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.caption_div {
+  margin-right: 10px;
+  height: 50%;
+  width: 100%;
+}
+
+.caption_div span > p {
+  margin: 5px 12px;
+  color: white;
+}
+
+.caption_div p {
+  font-size: 15px;
+  margin: 30px 12px;
+}
+
+
+.rec.rec-arrow {
+  border-radius: 0;
+  color: rgb(230, 224, 224);
+  background: rgb(58, 62, 65);
+ 
+  
+}
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+
+  
+}
+
+.rec.rec-arrow-right{
+  margin-right: 10px;
+}
+button.rec-dot{
+   display: none;
+}

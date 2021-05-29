@@ -1,0 +1,58 @@
+.home {
+  height: 100vh;
+   /* background-image: url('./bg-image1.JPG');  */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
+  url('./Images/bg\ sized.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat repeat;
+  background-size: cover;
+  background-position:  center;
+  background-attachment: fixed; 
+  align-items: center;
+  display: flex; 
+}
+
+.title{
+  padding-left: 50px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgb(88, 102, 11)  1px 1px;
+}
+
+.title h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: 'Crimson Pro', serif;
+  background: linear-gradient(rgba(234, 238, 200, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgba(183, 189, 134, 0.9);
+}
+
+.social a {
+  color:rgba(183, 189, 134, 0.9) ;
+}
+
+.social :hover{
+    color: rgb(228, 235, 215);
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+}
+
