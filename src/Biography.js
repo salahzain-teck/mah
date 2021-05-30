@@ -20,8 +20,9 @@ function Biography() {
                     <a href='https://www.youtube.com/c/drmahazhari/featured'> <YouTubeIcon/></a>  
                   </div> 
                </div>
-                <div className='main_title d-flex   '>
+                <div className='main_title'>
                    <h1>ABOUT DR MAH AZHARI</h1>
+                   <p>Home / About</p>
                 </div>
             </div>   
 
@@ -110,9 +111,9 @@ function Biography() {
 
             </div>
 
-            
+            <Footer/>
         </div>
-        <Footer/>
+       
         </>
     )
 }     

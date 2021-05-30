@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row'
 import ArrowDropDownSharpIcon from '@material-ui/icons/ArrowDropDownSharp';
 import image1 from './Images/service2.jpg' 
 import image2 from './Images/service3.jpg' 
+import Footer from './Footer'
+import Highlights from './Highlights'
 
    
   function ServiceIntro() {
@@ -15,7 +17,7 @@ import image2 from './Images/service3.jpg'
                                 
     sample1:true,
     head: 'SAMPLE HEADER',
-    image : image1,
+    image : image2 ,
     caption: 'We want to ensure optimum use of our website for you, and also to continually improve our website. We can also show you use-based content and advertising, and to this end we work with selected partners You also receive advertising on other websites through these partners. You can revoke your voluntary consent at any time. You can find further information and setting options under "Settings" and in our data protection information'
                                 
     })
@@ -23,7 +25,7 @@ import image2 from './Images/service3.jpg'
 
     return (
         <>
-    <Container fluid className='service_intro'>
+    <div className='service_intro'>
     
       <div className='row_div'  >
      
@@ -31,8 +33,8 @@ import image2 from './Images/service3.jpg'
        <Col sm ><p onClick={()=> setContent({
           sample1: true,
           head: 'SAMPLE HEADER',
-          image : image1,
-         
+       
+          image : image2 ,
           caption: 'We want to ensure optimum use of our website for you, and also to continually improve our website. We can also show you use-based content and advertising, and to this end we work with selected partners You also receive advertising on other websites through these partners. You can revoke your voluntary consent at any time. You can find further information and setting options under "Settings" and in our data protection information'
         })} 
         className={`head ${content.sample1 ? 'active' : ''}`}>SAMPLE1 <div  className='arrow_icon'> {content.sample1 ?  < ArrowDropDownSharpIcon /> : ""}</div> </p> 
@@ -52,7 +54,7 @@ import image2 from './Images/service3.jpg'
       <Col  sm ><p onClick={()=> setContent({ 
         head : 'SAMPLE HEADER',
         sample3: true,
-        image : image2 ,
+        image : image1,
         caption : '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'             
       })} 
         className={`head ${content.sample3 ? 'active' : ''}`}>SAMPLE3 <div  className='arrow_icon'> {content.sample3 ?  < ArrowDropDownSharpIcon /> : ""}</div> </p>
@@ -90,7 +92,9 @@ import image2 from './Images/service3.jpg'
 
        </div>  
       
-    </Container>
+       <Highlights/>
+       <Footer/>
+    </div>
         
   </>
     

@@ -1,6 +1,12 @@
+/* .photo_gallery{
+    background-image: url('https://weddinginvitations.nz/wp-content/uploads/2019/03/background-batik-putih-2.png');
+
+}    */
+
 .photo_content_div{
     width: 80%;
     margin: auto;
+   
 }
 
 .card_holder{
@@ -10,3 +16,13 @@
 .row_div{
     margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+    .card{
+     margin-top: 20px;
+    }
+    .card_holder{
+        margin-top: 0px;
+    }
+    
+  }

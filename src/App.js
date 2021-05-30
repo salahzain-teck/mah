@@ -6,6 +6,9 @@ import Biography from './Biography';
 import SocialActivities from './SocialActivities'
 import Visuals from './Visuals'
 import PhotoGallery from './PhotoGallery'
+import Footer from './Footer';
+import ServiceIntro from './ServiceIntro';
+import Highlights from './Highlights';
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
       <Route path='/'>
          
          <Home/>
+         
+         <ServiceIntro />
+       
       </Route>
     </Switch>
   </Router>

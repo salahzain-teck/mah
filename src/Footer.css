@@ -9,6 +9,13 @@
   background-color: rgb(41, 43, 44);
 }
 
+@media (max-width: 768px) {
+  .footer{
+    height: 300px;
+    margin-top: 100px;
+  }
+ 
+}
 .accounts {
   margin: auto;
   display: flex;
@@ -21,21 +28,22 @@
 .accounts span {
   text-align: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
   height: 60px;
   width: 60px;
   background-color: white;
   border-radius: 50%;
-  display: inline-block;
+  
 }
+
+
+
 
 span {
   color: rgb(51, 55, 56);
 }
 
-.icon {
-  margin-top: 17px;
-  height: 20px;
-}
 
 a :hover {
   color: #0fa0ce;
@@ -64,6 +72,7 @@ a :hover {
 .nav_icon {
   margin-left: 3px;
   margin-bottom: 2px;
+ ;
   color: white;
   font-weight: 500;
 }
@@ -78,4 +87,19 @@ a :hover {
   width: 30px;
   border-radius: 2px;
   margin-top: -16px;
+}
+
+
+@media (max-width: 768px) {
+  .accounts{
+    width: 200px;
+    
+  }
+  .accounts span{
+    height: 40px;
+    width: 40px;
+  }
+
+ 
+ 
 }

@@ -1,6 +1,7 @@
 .main_div {
   margin-top: 60px;
   width: 100%;
+  /* background-image: url('https://weddinginvitations.nz/wp-content/uploads/2019/03/background-batik-putih-2.png'); */
 }
 
 .about_header {
@@ -19,6 +20,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .acconts_head {
+    width: 120px;
+    margin: 20px;
+  }
 }
 
 .acconts_head a {
@@ -168,7 +176,7 @@
 .content_header {
   margin: auto;
   align-items: center;
-  width: 350px;
+  width: 60%;
   height: 40px;
   background-color: rgb(41, 43, 44);
   color: honeydew;
@@ -196,9 +204,12 @@
     flex-direction: column;
   }
   .sidebar {
-    width: 90%;
+    width: 100%;
     height: 800px;
     margin: auto;
+  }
+  .content_header{
+    width: 90%;
   }
   .main_content {
     width: 90%;

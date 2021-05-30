@@ -23,12 +23,14 @@ function Navibar() {
   }, []);
 
   return (
-    <>
+  
    
 
-      <Navbar
+        
+   
+      <Navbar collapseOnSelect
         variant="dark"
-        expand="md"
+        expand="lg"
         fixed="top"
         className="py-3 py-lg-4"
         style={{transition: "1s ease",backgroundColor: navBackground ? "#292b2c" : "transparent",}}
@@ -76,7 +78,7 @@ function Navibar() {
         </Nav>
       </Navbar.Collapse>
       </Navbar>
-    </>
+      
   );
 }
 

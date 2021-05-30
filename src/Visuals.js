@@ -12,7 +12,8 @@ import Footer from './Footer';
 function Visuals() {
 
     return (
-        <div classNames='visuals'>
+
+        <div className='visuals'>
             <div className='about_header '>
                <div className='accont_parent'>
                <div className='acconts_head float-right  '>

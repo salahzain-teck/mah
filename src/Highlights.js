@@ -23,7 +23,7 @@ function Highlights() {
       <Carousel    breakPoints={breakPoints}>
         
         <div className='item bg-dark '>
-          <div className='img_div'>
+          <div className='img_div bg-dark '>
            <img src='https://cdn.shopify.com/s/files/1/0043/8471/8938/products/160980393133012118_ae5a3735-c0e0-455b-ba8c-5090c91f9d92_812x.jpg?v=1609814996'/>
           </div>
           <div className='caption_div'>

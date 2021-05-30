@@ -1,3 +1,8 @@
+
+/* .visuals{
+  background-image: url('https://weddinginvitations.nz/wp-content/uploads/2019/03/background-batik-putih-2.png');
+} */
+
 .row_container {
   padding-top: 70px;
   width: 85%;
@@ -19,6 +24,7 @@
 .video_caption {
   height: 30px;
   background-color: #eee;
+ 
   display: flex;
   justify-content: center;
 }
